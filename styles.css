@@ -72,9 +72,9 @@ button:hover {
 
     .game-board {
         display: grid;
-        grid-template-columns: repeat(7, 10vh); /* Adjust column size as needed */
-        grid-template-rows: repeat(6, 10vh); /* Adjust row size as needed */
-        gap: 1vh;
+        grid-template-columns: repeat(7, 8vw); /* Adjust column size as needed */
+        grid-template-rows: repeat(6, 8vw); /* Adjust row size as needed */
+        gap: 0.8vw;
         background-color: blue; /* Placeholder color */
         border: 2px solid black;
     }
