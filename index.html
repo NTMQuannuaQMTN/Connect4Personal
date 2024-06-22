@@ -1,69 +1,29 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Connect 4</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="shortcut icon" type="image/x-icon" href="Quan-Quang-Phuoc-8A13/favicon.ico">
-    <style>
-        body {
-            background-color: blue;
-        }
-        
-        header {
-            width: 100vw;
-            height: fit-content;
-            background-color: white;
-            float: left;
-            display: block;
-        }
-        
-        footer {
-            color: white;
-        }
-        
-        .rainbow-text {
-            width: 100vw;
-            font-weight: bold;
-            font-size: 8vh;
-            color: blue;
-            display: inline-block;
-            margin-top: 20px;
-        }
-        
-        .rainbow-text .block-line > span {
-            display: inline-block;
-        }
-        
-        a {
-            background-color: blue;
-            color: white;
-            font-size: 7vw;
-            width: fit-content;
-            padding: 6px;
-            margin-bottom: 8vh;
-            border-radius: 15px;
-        }
-        
-        @media (max-width: 768px) {
-            img {
-                width: 100vw;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        <div class="rainbow-text" style="text-align: center;">
-		<h1>CONNECT 4</h1>
-        </div>
-        <!--Ảnh-->
+        <h1>Connect 4</h1>
     </header>
     <main>
-        <h1>Waitin'</h1>
+        <div class="game-board">
+            <!-- Generate the game board using JavaScript -->
+        </div>
+        <aside class="sidebar">
+            <div class="player-turn">
+                <p>Player's Turn: <span id="current-player">Red</span></p>
+            </div>
+            <button id="reset-button">New Game</button>
+        </aside>
     </main>
+    <footer>
+        <p>Created by Nguyen Truong Manh Quan</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>
