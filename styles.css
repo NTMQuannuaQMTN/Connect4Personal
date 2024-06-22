@@ -79,3 +79,14 @@ button:hover {
         border: 2px solid black;
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .game-board {
+        display: grid;
+        grid-template-columns: repeat(7, 5vh); /* Adjust column size as needed */
+        grid-template-rows: repeat(6, 5vh); /* Adjust row size as needed */
+        gap: 0.5vh;
+        background-color: blue; /* Placeholder color */
+        border: 2px solid black;
+    }
+}
