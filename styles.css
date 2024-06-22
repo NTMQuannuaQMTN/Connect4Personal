@@ -20,10 +20,17 @@ header, footer {
 }
 
 main {
-    /* display: flex; */
+    text-align: center;
     justify-content: center;
     align-items: center;
     /* gap: 20px; */
+}
+
+@media only screen and (min-width: 600px) {
+    main {
+        display: flex;
+        gap: 1vw;
+    }
 }
 
 .game-board {
