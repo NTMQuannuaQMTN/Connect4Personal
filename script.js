@@ -55,6 +55,7 @@ function handlePlayerTurn(column) {
         } else {
             // Switch player
             currentPlayer = (currentPlayer === 'red') ? 'yellow' : 'red';
+            document.body.style.backgroundColor = currentPlayer;
             document.getElementById('current-player').textContent = currentPlayer.charAt(0).toUpperCase() + currentPlayer.slice(1);
         }
     }
@@ -132,6 +133,7 @@ document.getElementById('reset-button').addEventListener('click', function() {
     initializeBoard();
     renderBoard();
     document.getElementById('current-player').textContent = 'Red';
+    document.body.style.backgroundColor = 'Red';
 });
 
 // Initialize the game on page load
