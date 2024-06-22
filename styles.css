@@ -7,6 +7,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    text-align: center;
 }
 
 header, footer {
@@ -14,21 +15,22 @@ header, footer {
     color: white;
     text-align: center;
     width: 100%;
-    padding: 10px 0;
+    padding: 1vw;
+    margin: 0;
 }
 
 main {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .game-board {
     display: grid;
-    grid-template-columns: repeat(7, 60px); /* Adjust column size as needed */
-    grid-template-rows: repeat(6, 60px); /* Adjust row size as needed */
-    gap: 4px;
+    grid-template-columns: repeat(7, 10vw); /* Adjust column size as needed */
+    grid-template-rows: repeat(6, 10vw); /* Adjust row size as needed */
+    gap: 1vw;
     background-color: blue; /* Placeholder color */
     border: 2px solid black;
 }
@@ -51,7 +53,7 @@ main {
 }
 
 button {
-    padding: 10px 20px;
+    padding: 2vw;
     background-color: #4CAF50;
     color: white;
     border: none;
