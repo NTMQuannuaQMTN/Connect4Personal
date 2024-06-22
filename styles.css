@@ -26,13 +26,6 @@ main {
     /* gap: 20px; */
 }
 
-@media only screen and (min-width: 600px) {
-    main {
-        display: flex;
-        gap: 1vw;
-    }
-}
-
 .game-board {
     display: grid;
     grid-template-columns: repeat(7, 10vw); /* Adjust column size as needed */
@@ -69,4 +62,20 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+@media only screen and (min-width: 600px) {
+    main {
+        display: flex;
+        gap: 1vw;
+    }
+
+    .game-board {
+        display: grid;
+        grid-template-columns: repeat(7, 10vh); /* Adjust column size as needed */
+        grid-template-rows: repeat(6, 10vh); /* Adjust row size as needed */
+        gap: 1vh;
+        background-color: blue; /* Placeholder color */
+        border: 2px solid black;
+    }
 }
