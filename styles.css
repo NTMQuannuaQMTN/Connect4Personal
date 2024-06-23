@@ -69,10 +69,6 @@ button:hover {
 }
 
 @media only screen and (min-width: 600px) {
-    .sidebar {
-        
-    }
-    
     .game-board {
         display: grid;
         grid-template-columns: repeat(7, 8vw); /* Adjust column size as needed */
