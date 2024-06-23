@@ -28,8 +28,8 @@ main {
 
 .game-board {
     display: grid;
-    grid-template-columns: repeat(7, 10vw); /* Adjust column size as needed */
-    grid-template-rows: repeat(6, 10vw); /* Adjust row size as needed */
+    grid-template-columns: repeat(3, 10vw); /* Adjust column size as needed */
+    grid-template-rows: repeat(3, 10vw); /* Adjust row size as needed */
     gap: 1vw;
     background-color: blue; /* Placeholder color */
     border: 2px solid black;
@@ -71,8 +71,8 @@ button:hover {
 @media only screen and (min-width: 600px) {
     .game-board {
         display: grid;
-        grid-template-columns: repeat(7, 8vw); /* Adjust column size as needed */
-        grid-template-rows: repeat(6, 8vw); /* Adjust row size as needed */
+        grid-template-columns: repeat(3, 8vw); /* Adjust column size as needed */
+        grid-template-rows: repeat(3, 8vw); /* Adjust row size as needed */
         gap: 0.8vw;
         background-color: blue; /* Placeholder color */
         border: 2px solid black;
@@ -82,8 +82,8 @@ button:hover {
 @media only screen and (min-width: 1000px) {
     .game-board {
         display: grid;
-        grid-template-columns: repeat(7, 7vh); /* Adjust column size as needed */
-        grid-template-rows: repeat(6, 7vh); /* Adjust row size as needed */
+        grid-template-columns: repeat(3, 7vh); /* Adjust column size as needed */
+        grid-template-rows: repeat(3, 7vh); /* Adjust row size as needed */
         gap: 0.7vh;
         background-color: blue; /* Placeholder color */
         border: 2px solid black;
